@@ -14,3 +14,5 @@ app
 	.use(bodyParser.json())
 	.use(express.static(path.join(__dirname, '../client/dist')))
 	.listen(port, '0.0.0.0', () => console.log(`express listening on port ${port}`));
+
+//test
